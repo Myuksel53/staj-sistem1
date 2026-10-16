@@ -40,7 +40,7 @@ def main():
         print(f"[{n}/{len(bekleyen)}]", cikti[-1] if cikti else r.returncode)
         if r.returncode == 75:
             print("Kota bitti, durdum. Yarın ya da anahtarla aynı komutu yeniden çalıştır; kaldığı yerden devam eder.")
-            break
+            sys.exit(75)
         if r.returncode == 0:
             yapilan.add(k["openalex_id"])
             json.dump(sorted(yapilan), open(DURUM, "w"))

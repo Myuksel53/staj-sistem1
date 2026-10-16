@@ -16,4 +16,10 @@ while true; do
 done
 echo "[$(date '+%F %T')] Kota açık, içe aktarma başlıyor"
 python scripts/tum_iller.py
+kod=$?
+if [ "$kod" -ne 0 ]; then
+  echo "[$(date '+%F %T')] Aktarım tamamlanamadı (kod $kod); 15 dk sonra yeniden denenecek"
+  sleep 900
+  exec bash "$0"   # baştan: kotayı yeniden denetler, kaldığı yerden devam eder
+fi
 echo "[$(date '+%F %T')] BİTTİ"

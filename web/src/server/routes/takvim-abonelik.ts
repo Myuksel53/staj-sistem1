@@ -1,4 +1,5 @@
 import { and, eq, gte, isNotNull } from "drizzle-orm";
+import { connection } from "next/server";
 import { db } from "@/db";
 import { basvuru, dogrulama, firsat, kaynak, kurum } from "@/db/schema";
 import { OturumGerekli } from "../errors";
@@ -34,6 +35,7 @@ export const GET = api(async (req) => {
 
 /** GET /api/takvim/tum — herkese açık: gerçek (DEMO olmayan) programların yaklaşan tüm son başvuru tarihleri. */
 export const TUM = api(async () => {
+  await connection(); // her istekte güncel veri; derleme sırasında bir kez üretilip donmasın
   const satirlar = await db
     .select({ f: firsat, kurumAdi: kurum.ad })
     .from(firsat).innerJoin(kurum, eq(kurum.id, firsat.kurumId))
