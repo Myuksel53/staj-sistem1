@@ -1,0 +1,360 @@
+{
+  "_not": "DEMO VERİ: tüm kurumlar ve ilanlar uydurmadır. Gerçek veriye geçerken: npm run demo:sil",
+  "kayitlar": [
+    {
+      "kurum": {
+        "ad": "DEMO Mavi Yazılım",
+        "tur": "sirket",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "tur": "staj",
+      "baslik": "DEMO: Gömülü Yazılım Stajyeri",
+      "aciklama": "Gömülü sistemler ekibinde mikrodenetleyici yazılımı geliştirecek stajyer arıyoruz. Adaylar en az 3. sınıf öğrencisi olmalıdır. C programlama dili bilgisi zorunludur. RTOS deneyimi tercih edilir. Staj 8 hafta sürer.",
+      "uzaktan": false,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/gomulu",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "İstanbul",
+      "sureHafta": 8,
+      "sonBasvuru": "2026-12-15"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Mavi Yazılım",
+        "tur": "sirket",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "tur": "staj",
+      "baslik": "DEMO: Mobil Uygulama Geliştirme Stajı",
+      "aciklama": "Mobil ekibimizde Android uygulamaları geliştirecek stajyer arıyoruz. Kotlin bilgisi zorunludur. Genel not ortalaması en az 2.50 olmalıdır. Git kullanımı tercih edilir.",
+      "uzaktan": false,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/mobil",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "İstanbul",
+      "sureHafta": 6,
+      "sonBasvuru": "2026-12-20"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Kuzey Teknoloji",
+        "tur": "sirket",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "tur": "staj",
+      "baslik": "DEMO: Yapay Zekâ Stajyeri",
+      "aciklama": "Doğal dil işleme projelerinde çalışacak stajyer arıyoruz. Python bilgisi zorunludur. En az 3. sınıf öğrencisi olmalıdır. PyTorch deneyimi tercih edilir. Uzaktan çalışma mümkündür.",
+      "uzaktan": true,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/nlp",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sureHafta": 10,
+      "sonBasvuru": "2026-12-10"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Kuzey Teknoloji",
+        "tur": "sirket",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "tur": "staj",
+      "baslik": "DEMO: Siber Güvenlik Stajyeri",
+      "aciklama": "Güvenlik operasyon merkezinde log analizi ve zafiyet taraması yapacak stajyer arıyoruz. Ağ temelleri bilgisi zorunludur. Linux kullanımı tercih edilir. En az 2. sınıf öğrencisi olmalıdır.",
+      "uzaktan": false,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/guvenlik",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "Ankara",
+      "sureHafta": 8,
+      "sonBasvuru": "2026-11-30"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Ege Veri Sistemleri",
+        "tur": "sirket",
+        "sehir": "İzmir",
+        "ulke": "TR"
+      },
+      "tur": "staj",
+      "baslik": "DEMO: Veri Mühendisliği Stajı",
+      "aciklama": "Veri hatları kuran ekibimizde SQL ve Python ile çalışacak stajyer arıyoruz. SQL bilgisi zorunludur. Python bilgisi tercih edilir. Genel not ortalaması en az 2.80 olmalıdır.",
+      "uzaktan": false,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/veri",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "İzmir",
+      "sureHafta": 8,
+      "sonBasvuru": "2026-12-05"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Ege Veri Sistemleri",
+        "tur": "sirket",
+        "sehir": "İzmir",
+        "ulke": "TR"
+      },
+      "tur": "staj",
+      "baslik": "DEMO: Web Geliştirme Stajyeri",
+      "aciklama": "Kurumsal web uygulamalarında React ile çalışacak stajyer arıyoruz. JavaScript bilgisi zorunludur. TypeScript tercih edilir. Uzaktan veya hibrit çalışılabilir.",
+      "uzaktan": true,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/web",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sureHafta": 6,
+      "sonBasvuru": "2026-12-18"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Mavi Yazılım",
+        "tur": "sirket",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "tur": "staj",
+      "baslik": "DEMO: Bulut Altyapı Stajı",
+      "aciklama": "Bulut altyapı ekibinde konteyner ve CI/CD süreçlerinde çalışacak stajyer arıyoruz. Docker bilgisi zorunludur. En az 3. sınıf öğrencisi olmalıdır. Kubernetes tercih edilir.",
+      "uzaktan": false,
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://example.com/demo/bulut",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "İstanbul",
+      "sureHafta": 8,
+      "sonBasvuru": "2026-11-25"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Kuzey Teknoloji",
+        "tur": "sirket",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "tur": "staj",
+      "baslik": "DEMO: Oyun Programlama Stajı (kapanmış)",
+      "aciklama": "Oyun motoru geliştirmede çalışacak stajyer arıyoruz. C++ bilgisi zorunludur. En az 3. sınıf öğrencisi olmalıdır. Başvurular sona ermiştir.",
+      "uzaktan": false,
+      "durum": "kapali",
+      "kaynak": {
+        "url": "https://example.com/demo/oyun",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "Ankara",
+      "sureHafta": 8,
+      "sonBasvuru": "2026-09-30"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Boğaz Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "tur": "arastirma_staji",
+      "baslik": "DEMO: Görüntü İşleme Araştırma Stajı",
+      "aciklama": "Görüntü işleme ve derin öğrenme araştırma laboratuvarında yaz araştırma stajı. Python bilgisi zorunludur. En az 3. sınıf öğrencisi olmalıdır. Genel not ortalaması en az 3.00 olmalıdır.",
+      "uzaktan": false,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/goruntu",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "İstanbul",
+      "sureHafta": 10,
+      "sonBasvuru": "2027-01-15"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Anadolu Mühendislik Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "tur": "arastirma_staji",
+      "baslik": "DEMO: Gömülü Yapay Zekâ Araştırma Stajı",
+      "aciklama": "Enerji verimli gömülü yapay zekâ üzerine araştırma projesinde yer alacak öğrenci arıyoruz. C veya Python bilgisi zorunludur. En az 3. sınıf öğrencisi olmalıdır.",
+      "uzaktan": false,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/gomulu-ai",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "Ankara",
+      "sureHafta": 12,
+      "sonBasvuru": "2027-01-10"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Anadolu Mühendislik Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "tur": "proje",
+      "baslik": "DEMO: Açık Kaynak Robotik Projesi",
+      "aciklama": "Açık kaynak robotik yazılım projesinde katkıda bulunacak öğrenciler arıyoruz. Python bilgisi zorunludur. ROS deneyimi tercih edilir. Uzaktan katkı mümkündür.",
+      "uzaktan": true,
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://example.com/demo/robotik",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sureHafta": 12,
+      "sonBasvuru": "2027-02-01"
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Boğaz Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "tur": "arastirma_staji",
+      "baslik": "DEMO: Ağ Güvenliği Araştırma Stajı",
+      "aciklama": "Ağ güvenliği ve saldırı tespiti üzerine çalışan grupta araştırma stajı. Ağ temelleri bilgisi zorunludur. Python tercih edilir.",
+      "uzaktan": false,
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://example.com/demo/ag-guvenligi",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      },
+      "sehir": "İstanbul",
+      "sureHafta": 8
+    }
+  ],
+  "gruplar": [
+    {
+      "kurum": {
+        "ad": "DEMO Boğaz Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "DEMO: Görüntü İşleme ve Öğrenme Laboratuvarı",
+      "konular": [
+        "görüntü işleme",
+        "derin öğrenme",
+        "tıbbi görüntüleme"
+      ],
+      "sayfaUrl": "https://example.com/demo/lab/goruntu",
+      "kabul": "kabul_ediyor",
+      "kaynak": {
+        "url": "https://example.com/demo/lab-goruntu",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      }
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Anadolu Mühendislik Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "DEMO: Gömülü Zekâ Grubu",
+      "konular": [
+        "gömülü sistemler",
+        "enerji verimli yapay zekâ",
+        "TinyML"
+      ],
+      "sayfaUrl": "https://example.com/demo/lab/gomulu",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://example.com/demo/lab-gomulu",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      }
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Boğaz Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "DEMO: Ağ ve Sistem Güvenliği Grubu",
+      "konular": [
+        "ağ güvenliği",
+        "saldırı tespiti",
+        "kötücül yazılım analizi"
+      ],
+      "sayfaUrl": "https://example.com/demo/lab/guvenlik",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://example.com/demo/lab-guvenlik",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      }
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Anadolu Mühendislik Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "DEMO: Doğal Dil İşleme Laboratuvarı",
+      "konular": [
+        "doğal dil işleme",
+        "Türkçe dil modelleri",
+        "bilgi çıkarımı"
+      ],
+      "sayfaUrl": "https://example.com/demo/lab/nlp",
+      "kabul": "kabul_etmiyor",
+      "kaynak": {
+        "url": "https://example.com/demo/lab-nlp",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      }
+    },
+    {
+      "kurum": {
+        "ad": "DEMO Boğaz Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "DEMO: Robotik ve Kontrol Laboratuvarı",
+      "konular": [
+        "mobil robotlar",
+        "ROS",
+        "SLAM"
+      ],
+      "sayfaUrl": "https://example.com/demo/lab/robotik",
+      "kabul": "kabul_ediyor",
+      "kaynak": {
+        "url": "https://example.com/demo/lab-robotik",
+        "tur": "kullanici_linki",
+        "kullanimSartiNotu": "DEMO: uydurma veri, gerçek kaynak değil"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+httpx
+pyalex
+psycopg[binary]
+python-dotenv
+beautifulsoup4

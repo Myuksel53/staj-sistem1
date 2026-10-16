@@ -1,0 +1,26 @@
+# Gizli değerler: asla yüklenmez (şablon .env.example yüklenir)
+.env
+.env.*
+!.env.example
+
+# Bağımlılıklar ve derleme çıktıları
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python sanal ortamı ve üretilen veri/günlükler
+data/.venv/
+__pycache__/
+*.pyc
+data/.ice_aktarilan.json
+data/tum_iller.log
+data/turkiye_universiteleri.json
+
+# Yerel yedekler ve günlükler
+yedek/
+*.log
+.DS_Store
+.vercel/

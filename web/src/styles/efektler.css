@@ -1,0 +1,22 @@
+/* Hareket ve yüzey. Hareket azaltma tercihi saygı görür. */
+@keyframes akis { to { background-position: 200% center; } }
+
+/* Başlıktaki vurgulu kelime: turkuaz, uçta bir dokunuş mercan */
+.parilti {
+  background: var(--gradyan-parilti);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: akis 10s linear infinite;
+}
+.cam { background: var(--surface); border: 1px solid var(--line); border-radius: 1rem; box-shadow: var(--golge-1); }
+/* Fırsat/laboratuvar kartı: porselen yüzey, ince çerçeve; üzerine gelince turkuaz kenar ve hafif yükselme */
+.kart { background: var(--surface); border: 1px solid var(--line); border-radius: 1rem; box-shadow: var(--golge-1); transition: box-shadow .2s, border-color .2s, transform .2s; }
+.kart:hover { border-color: var(--primary-line); box-shadow: var(--golge-2); transform: translateY(-1px); }
+@media (prefers-reduced-motion: reduce) { .kart:hover { transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .parilti { animation: none; }
+  html { scroll-behavior: auto; }
+}

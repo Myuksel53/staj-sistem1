@@ -1,0 +1,15 @@
+/* Eski sayfaların (profil, başvurular…) varsayılan Tailwind sınıflarını Çini temasına bağlar.
+ * Yeni kod bu sınıflara güvenmemeli; components/ui ve jetonları kullanmalı. */
+body .text-zinc-300, body .text-zinc-400, body .text-zinc-500, body .text-zinc-600 { color: var(--ink-mute); }
+body .border { border-color: var(--line); }
+body li.rounded.border, body .rounded.border.p-4 { background: var(--surface); border-radius: 0.75rem; }
+body input:not([type=checkbox]):not([type=file]), body textarea, body select { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 0.5rem; }
+body input:not([type=checkbox]):focus, body textarea:focus, body select:focus { border-color: var(--primary); outline: none; }
+body input::placeholder, body textarea::placeholder { color: var(--ink-faint); }
+body .bg-black, body button.bg-black { background: var(--primary) !important; color: #fff !important; border-radius: 9999px; }
+body button.border { border-radius: 9999px; border-color: var(--line); color: var(--ink-soft); }
+body a.underline { color: var(--primary-ink); }
+body .text-red-600 { color: var(--coral-ink); }
+body .bg-zinc-100 { background: var(--sand); }
+body .text-emerald-300 { color: #047857; }
+body .text-amber-200 { color: #92400e; }

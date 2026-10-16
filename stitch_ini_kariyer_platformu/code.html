@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html lang="tr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Çini Staj Asistanı</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-highest": "#d8e3fb", "inverse-primary": "#79d4e2", "surface-dim": "#cfdaf2", "secondary": "#006781", "inceleme-amber-border": "#FDE68A", "secondary-fixed": "#b9eaff", "dogrulama-emerald": "#059669", "surface-variant": "#d8e3fb", "error-container": "#ffdad6", "primary-fixed-dim": "#79d4e2", "on-tertiary-fixed-variant": "#005047", "error": "#ba1a1a", "tertiary": "#00665a", "mercan-border": "#FECACA", "tertiary-container": "#008173", "on-primary-fixed-variant": "#004f57", "inceleme-amber-surface": "#FFFBEB", "on-secondary-fixed-variant": "#004d62", "on-tertiary-container": "#e4fff8", "cini-surface-muted": "#F1F5F9", "on-primary": "#ffffff", "secondary-fixed-dim": "#81d1f0", "surface-container-low": "#f0f3ff", "outline": "#6e797b", "surface-container-high": "#dee8ff", "on-surface-variant": "#3e494a", "on-secondary-container": "#00647d", "on-surface": "#111c2d", "outline-variant": "#bdc8ca", "primary": "#00636e", "dogrulama-emerald-surface": "#ECFDF5", "on-background": "#111c2d", "surface-container-lowest": "#ffffff", "on-tertiary-fixed": "#00201c", "primary-container": "#087e8b", "cini-surface-card": "#FFFFFF", "dogrulama-emerald-border": "#A7F3D0", "surface": "#f9f9ff", "primary-fixed": "#96f0ff", "cini-turquoise-surface": "#F0FDFA", "akademik-indigo-surface": "#EEF2FF", "background": "#f9f9ff", "on-error": "#ffffff", "mercan-urgent": "#E05A47", "on-secondary-fixed": "#001f29", "akademik-indigo-border": "#C7D2FE", "on-secondary": "#ffffff", "inverse-surface": "#263143", "surface-bright": "#f9f9ff", "surface-container": "#e7eeff", "cini-surface-ground": "#F8FAFC", "inverse-on-surface": "#ecf1ff", "cini-turquoise-subtle": "#CCFBF1", "tertiary-fixed-dim": "#59dbc7", "mercan-surface": "#FEF2F2", "secondary-container": "#8fdfff", "tertiary-fixed": "#79f7e3", "akademik-indigo": "#4338CA", "inceleme-amber": "#D97706", "on-tertiary": "#ffffff", "on-error-container": "#93000a", "surface-tint": "#006874", "on-primary-container": "#eafcff", "on-primary-fixed": "#001f24" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xs": "0.25rem", "space-xl": "2.5rem", "margin-sm": "1rem", "gutter": "1.5rem", "gutter-sm": "1rem", "space-sm": "0.5rem", "margin": "2rem", "space-lg": "1.5rem", "space-md": "1rem" }, "fontFamily": { "code-citation": [ "Plus Jakarta Sans" ], "body-md-bold": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "display-hero": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "headline-md": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Plus Jakarta Sans" ], "display-hero-mobile": [ "Plus Jakarta Sans" ] }, "fontSize": { "code-citation": [ "12px", { "lineHeight": "18px", "fontWeight": "500" } ], "body-md-bold": [ "14px", { "lineHeight": "22px", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "display-hero": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "800" } ], "body-sm": [ "12px", { "lineHeight": "18px", "fontWeight": "400" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" } ], "headline-sm": [ "16px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "fontWeight": "400" } ], "body-md": [ "14px", { "lineHeight": "22px", "fontWeight": "400" } ], "headline-md": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-lg-mobile": [ "22px", { "lineHeight": "30px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "display-hero-mobile": [ "30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "800" } ] } } } }</script></head><body class="bg-cini-surface-ground font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-cini-surface-card/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(15,23,42,0.04)]"><div class="h-16 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg flex-shrink-0"><div class="flex items-center gap-space-sm"><img alt="Çini Staj Asistanı Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VPeRDixGMkvC560_4Tb_732qB_e9x1rWZGPWY6j6PP6d0-a4JtFZstBTUAnUJoxXnCcC4R7oNeaZFaiZZUaB2Cv3LmJ6gmtB6Hb_rdjJbNA-E_Hel50EgnWPsfaC-pbqU6wx7cAwD_UrtTUHj1mCdgYMXJvPR06bp0yPq2bh5RY2w-TpBpW8eyyLHuBNJCgxj9C_GZzlTzyhqy_3IX8ylXf_nFo9OFNQrFq-eOesXaDp_vKJyzSfNlT10"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">Çini Staj Asistanı</span><span class="font-label-sm text-label-sm text-outline">Akademik &amp; Sanayi Doğrulama Portalı</span></div></div><nav class="hidden xl:flex items-center gap-space-xs p-space-xs rounded-xl bg-surface-container-low" data-active-classes="bg-cini-turquoise-surface text-primary font-bold shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]"><a class="px-space-md py-space-xs rounded-lg font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-cini-turquoise-surface transition-all" data-path="firsatlar-eslestirme" href="#">Fırsatlar &amp; Eşleştirme</a><a class="px-space-md py-space-xs rounded-lg font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-cini-turquoise-surface transition-all" data-path="ilan-acmayan-laboratuvarlar" href="#">İlan Açmayan Laboratuvarlar</a><a class="px-space-md py-space-xs rounded-lg font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-cini-turquoise-surface transition-all" data-path="basvuru-takip-merkezi" href="#">Başvuru Takip Merkezi</a><a class="px-space-md py-space-xs rounded-lg font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-cini-turquoise-surface transition-all" data-path="profilim-cv-analizi" href="#">Profilim &amp; CV Analizi</a></nav></div><div class="flex items-center gap-space-md flex-1 max-w-lg justify-end"><div class="relative w-full max-w-xs md:max-w-md hidden sm:block"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[18px]">search</span><input class="w-full pl-9 pr-4 py-space-xs rounded-lg bg-cini-surface-ground font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-cini-surface-card transition-all" placeholder="Pozisyon, teknoloji veya laboratuvar ara..." type="text"/></div><div class="flex items-center gap-space-sm"><button aria-label="Bildirimler" class="relative p-space-xs rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 flex h-2.5 w-2.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-mercan-urgent opacity-75"></span><span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-mercan-urgent"></span></span></button><div class="flex items-center gap-space-xs pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA02cVzxrr22n5p3P6YDvYF5Iieo7kcGfxurYt5_lqrl8dD8W84aW6R78aXbOsP_LSyaYy7gPGHinbFZdz0O4dJjQY-O57iECw3Biy58R2SKufBPK37vleDrNoKRjpl04Ii4lf3EVqU8l-Wzzj_7s7YRNzKu0cYrI4ldVq4W_gTKAEk1W4yVhPiFurSDzv2iEwj4i581T2QgHD7g8uxMU7selohdBHXx2yH-CucNqgT5UOFs0GEXXHC"/><div class="hidden lg:flex flex-col text-left"><span class="font-body-md-bold text-body-md-bold text-on-surface leading-tight">Ece Yılmaz</span><span class="font-label-sm text-label-sm text-outline leading-none">İTÜ Bilgisayar Müh.</span></div><span class="material-symbols-outlined text-outline text-[16px] hidden lg:inline">expand_more</span></div></div></div></div></header><main class="w-full pt-16 bg-cini-surface-ground"><div class="flex flex-col w-full">
+<div class="w-full px-margin py-space-lg mx-auto max-w-7xl">
+<!-- Üst Başlık & Akıllı Teşhis Çubuğu (Editorial Tile Bar) -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md mb-space-lg bg-cini-surface-card p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>Akademik ve Sanayi Eşleştirme Motoru</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-extrabold tracking-tight">Profilim, Beceri Kanıtları &amp; Uygunluk Analizcisi</h1>
+<p class="font-body-md text-body-md text-outline">Kanıtlanamayan hiçbir yetenek yapay zeka tarafından işveren veya laboratuvara 'uygun' olarak iletilmez.</p>
+</div>
+<div class="flex items-center gap-space-md bg-cini-turquoise-surface p-space-sm rounded-lg">
+<div class="flex items-center gap-space-xs pl-space-xs">
+<div class="w-10 h-10 rounded-full bg-dogrulama-emerald-surface flex items-center justify-center text-dogrulama-emerald">
+<span class="material-symbols-outlined text-[24px]">fact_check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">DOĞRULANMA DERECESİ</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">%78 Tam Güvenilirlik</span>
+</div>
+</div>
+<div class="h-8 w-[1px] bg-outline-variant"></div>
+<div class="pr-space-sm">
+<span class="inline-flex items-center px-space-xs py-0.5 rounded-full bg-dogrulama-emerald text-on-primary font-label-sm text-label-sm">
+            2 Kanıt Aktif
+          </span>
+<span class="inline-flex items-center ml-1 px-space-xs py-0.5 rounded-full bg-inceleme-amber text-on-primary font-label-sm text-label-sm">
+            1 Beyan Bekliyor
+          </span>
+</div>
+</div>
+</div>
+<!-- 12 Kolon Ana Çalışma Alanı -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- SOL KOLON: Öğrenci Profil Özeti (4 Kolon) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Kimlik Kartı -->
+<div class="bg-cini-surface-card rounded-xl shadow-sm p-space-lg flex flex-col items-center text-center relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-20 bg-gradient-to-r from-primary to-primary-container"></div>
+<div class="relative mt-4 mb-space-md">
+<img alt="Meryem Yılmaz" class="w-24 h-24 rounded-full object-cover shadow-md ring-4 ring-cini-surface-card" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA02cVzxrr22n5p3P6YDvYF5Iieo7kcGfxurYt5_lqrl8dD8W84aW6R78aXbOsP_LSyaYy7gPGHinbFZdz0O4dJjQY-O57iECw3Biy58R2SKufBPK37vleDrNoKRjpl04Ii4lf3EVqU8l-Wzzj_7s7YRNzKu0cYrI4ldVq4W_gTKAEk1W4yVhPiFurSDzv2iEwj4i581T2QgHD7g8uxMU7selohdBHXx2yH-CucNqgT5UOFs0GEXXHC"/>
+<div class="absolute bottom-0 right-0 p-1 bg-dogrulama-emerald text-on-primary rounded-full shadow-sm" title="E-Devlet &amp; Öğrenci Belgesi Onaylı">
+<span class="material-symbols-outlined text-[16px] block">verified</span>
+</div>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Meryem Yılmaz</h2>
+<span class="font-body-md text-body-md text-primary font-semibold mt-0.5">İTÜ Bilgisayar Mühendisliği</span>
+<span class="font-body-sm text-body-sm text-outline">3. Sınıf Lisans Öğrencisi</span>
+<!-- GANO & Akademik Skoru Metriği -->
+<div class="w-full mt-space-md pt-space-md bg-surface-container-low rounded-lg p-space-sm flex items-center justify-around">
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Güncel GANO</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">3.62 <span class="font-body-sm text-body-sm text-outline">/ 4.00</span></span>
+</div>
+<div class="h-6 w-[1px] bg-outline-variant"></div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Durum</span>
+<span class="font-headline-sm text-headline-sm font-bold text-dogrulama-emerald flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">school</span> Yüksek Onur
+              </span>
+</div>
+</div>
+<!-- Staj ve Dönem Tercihleri -->
+<div class="w-full flex flex-col gap-space-sm mt-space-md text-left">
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Kayıtlı Tercihler &amp; Uygunluk</span>
+<div class="flex items-start gap-space-sm bg-cini-surface-ground p-space-sm rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">work_history</span>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-on-surface leading-snug">Staj Türü</span>
+<span class="font-body-sm text-body-sm text-outline">Zorunlu Yaz Stajı + Araştırma Stajı (TÜBİTAK/BAP)</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm bg-cini-surface-ground p-space-sm rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">location_on</span>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-on-surface leading-snug">Lokasyon Modeli</span>
+<span class="font-body-sm text-body-sm text-outline">İstanbul / Ankara / Hibrit (Öncelikli)</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm bg-cini-surface-ground p-space-sm rounded-lg">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">calendar_month</span>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-on-surface leading-snug">Müsaitlik Penceresi</span>
+<span class="font-body-sm text-body-sm text-outline">20 - 40 İş Günü (Temmuz - Ağustos 2027)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Akıllı CV Ayrıştırıcı (Parsing Zone) -->
+<div class="bg-cini-surface-card rounded-xl shadow-sm p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">cloud_sync</span>
+              CV Güncelleme &amp; Ayrıştırma
+            </span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container-highest text-on-surface font-semibold">PDF Destekli</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline">
+            CV'ni yükle; Çini Staj Asistanı dil modeli teknik terimleri, projeleri ve transkript ders kodlarını otomatik eşleştirsin.
+          </p>
+<div class="mt-space-xs bg-cini-surface-ground rounded-xl p-space-lg flex flex-col items-center justify-center text-center cursor-pointer transition-all hover:bg-surface-container-low group" id="dropzone">
+<div class="w-12 h-12 rounded-full bg-cini-turquoise-surface text-primary flex items-center justify-center group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[28px]">upload_file</span>
+</div>
+<span class="font-body-md-bold text-body-md-bold text-on-surface mt-space-sm">CV'ni buraya sürükle veya dosya seç</span>
+<span class="font-body-sm text-body-sm text-outline mt-1">Meryem_Yilmaz_CV_2027_v2.pdf (1.8 MB - Yüklendi)</span>
+<button class="mt-space-md px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-body-sm font-semibold hover:bg-primary-container transition-colors shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">autorenew</span>
+              Yeniden Ayrıştır
+            </button>
+</div>
+<div class="flex items-center gap-space-xs mt-space-xs text-dogrulama-emerald font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>Son senkronizasyon: 2 saat önce yapıldı</span>
+</div>
+</div>
+<!-- Canlı İpucu / Kural Kartı -->
+<div class="bg-cini-turquoise-surface rounded-xl p-space-md shadow-sm flex gap-space-sm items-start">
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5">shield</span>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-primary">Doğrulama Manifestosu</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+              Öğretim görevlileri ve savunma sanayii mülakatçıları, GitHub ve transkript desteği olmayan yetenekleri göz ardı etmektedir. Kanıtlanmış beceriler mülakat davet oranınızı %64 artırır.
+            </span>
+</div>
+</div>
+</div>
+<!-- ORTA & SAĞ ÇALIŞMA ALANI (8 Kolon): Kanıt Kütüphanesi & Karşılaştırma Matrisi -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- BÖLÜM 1: Doğrulanmış Beceri & Kanıt Kütüphanesi -->
+<div class="bg-cini-surface-card rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm pb-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">dataset</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Doğrulanmış Beceri &amp; Kanıt Kütüphanesi</h3>
+</div>
+<p class="font-body-sm text-body-sm text-outline mt-0.5">
+                Yalnızca somut akademik kod, GitHub reposu veya ders notu ile desteklenen beceriler otomatik eşleştirmede kesin puanlanır.
+              </p>
+</div>
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container text-primary font-body-sm font-semibold hover:bg-surface-container-high transition-colors flex items-center gap-1 self-start md:self-center">
+<span class="material-symbols-outlined text-[18px]">add_circle</span>
+              Yeni Kanıt Ekle
+            </button>
+</div>
+<!-- Beceri 1: Python & PyTorch (Doğrulandı - Yüksek) -->
+<div class="bg-surface-bright rounded-xl p-space-md transition-shadow hover:shadow-md flex flex-col gap-space-sm relative">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-dogrulama-emerald-surface text-dogrulama-emerald flex items-center justify-center font-bold">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Python &amp; PyTorch</h4>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="font-label-sm text-label-sm text-outline">Düzey:</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container-high text-primary font-bold">İleri Seviye (L3)</span>
+</div>
+</div>
+</div>
+<!-- Doğrulandı Rozeti -->
+<div class="flex items-center gap-1 px-space-sm py-1 rounded-full bg-dogrulama-emerald-surface text-dogrulama-emerald font-body-sm font-semibold self-start sm:self-center">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Doğrulandı (2 Kanıt)</span>
+</div>
+</div>
+<!-- Kanıt Ayrıntıları -->
+<div class="bg-cini-surface-ground rounded-lg p-space-sm mt-space-xs flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-space-xs text-on-surface font-body-sm">
+<span class="material-symbols-outlined text-outline text-[16px]">code</span>
+<span class="font-body-md-bold text-body-md-bold">GitHub Reposu:</span>
+<a class="text-primary hover:underline font-code-citation text-code-citation" href="#">github.com/meryemyilmaz/arxiv-summarizer</a>
+<span class="inline-flex items-center gap-0.5 px-1.5 py-0.2 rounded bg-surface-container text-outline text-label-sm font-bold">
+<span class="material-symbols-outlined text-[12px] text-inceleme-amber">star</span> 32 yıldız
+                  </span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface font-body-sm">
+<span class="material-symbols-outlined text-outline text-[16px]">history_edu</span>
+<span class="font-body-md-bold text-body-md-bold">Akademik Kanıt:</span>
+<span class="text-outline">İTÜ BLG433 (Derin Öğrenmeye Giriş) - Başarı Notu:</span>
+<span class="px-1.5 py-0.2 rounded bg-dogrulama-emerald text-on-primary font-label-sm text-label-sm font-bold">AA</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="text-primary hover:text-primary-container p-1 rounded hover:bg-surface-container" title="Kanıtı İncele">
+<span class="material-symbols-outlined text-[20px]">open_in_new</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Beceri 2: Go & Dağıtık Sistemler (Doğrulandı - Orta) -->
+<div class="bg-surface-bright rounded-xl p-space-md transition-shadow hover:shadow-md flex flex-col gap-space-sm relative">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed text-secondary flex items-center justify-center font-bold">
+<span class="material-symbols-outlined">dns</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Go (Golang) &amp; Dağıtık Sistemler</h4>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="font-label-sm text-label-sm text-outline">Düzey:</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container-high text-primary font-bold">Orta Seviye (L2)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1 px-space-sm py-1 rounded-full bg-dogrulama-emerald-surface text-dogrulama-emerald font-body-sm font-semibold self-start sm:self-center">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Doğrulandı (1 Kanıt)</span>
+</div>
+</div>
+<!-- Kanıt Ayrıntıları -->
+<div class="bg-cini-surface-ground rounded-lg p-space-sm mt-space-xs flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs text-on-surface font-body-sm">
+<span class="material-symbols-outlined text-outline text-[16px]">account_tree</span>
+<span class="font-body-md-bold text-body-md-bold">Bitirme Ön Projesi:</span>
+<a class="text-primary hover:underline font-code-citation text-code-citation" href="#">mini-raft-consensus (Go Raft İstemcisi)</a>
+<span class="text-outline text-body-sm">(İTÜ Dağıtık Sistemler Laboratuvarı Doğrulandı)</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="text-primary hover:text-primary-container p-1 rounded hover:bg-surface-container" title="Kanıtı İncele">
+<span class="material-symbols-outlined text-[20px]">open_in_new</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Beceri 3: RTOS & C++ (Kanıt Bekleniyor - Beyan) -->
+<div class="bg-surface-bright rounded-xl p-space-md transition-shadow hover:shadow-md flex flex-col gap-space-sm relative">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-inceleme-amber-surface text-inceleme-amber flex items-center justify-center font-bold">
+<span class="material-symbols-outlined">developer_board</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">RTOS &amp; Modern C++</h4>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="font-label-sm text-label-sm text-outline">Düzey:</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-bold">Temel Seviye (L1)</span>
+</div>
+</div>
+</div>
+<!-- Kanıt Bekleniyor Rozeti -->
+<div class="flex items-center gap-1 px-space-sm py-1 rounded-full bg-inceleme-amber-surface text-inceleme-amber font-body-sm font-semibold self-start sm:self-center">
+<span class="material-symbols-outlined text-[18px]">warning</span>
+<span>Kanıt Bekleniyor (Yalnızca Beyan)</span>
+</div>
+</div>
+<!-- Kanıt Eksikliği Uyarısı -->
+<div class="bg-inceleme-amber-surface/60 rounded-lg p-space-sm mt-space-xs flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs text-inceleme-amber font-body-sm">
+<span class="material-symbols-outlined text-[18px]">info</span>
+<span>Henüz doğrulanmış GitHub reposu veya transkript dersi eklenmedi. Eşleşme analizlerinde puanlama dışı bırakılır.</span>
+</div>
+<button class="px-space-sm py-1 bg-cini-surface-card rounded text-inceleme-amber font-body-sm font-bold shadow-sm hover:bg-surface-container transition-colors whitespace-nowrap">
+                Hemen Kanıt Ekle
+              </button>
+</div>
+</div>
+</div>
+<!-- BÖLÜM 2: Otomatik Uygunluk Analizcisi Simülatörü -->
+<div class="bg-cini-surface-card rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">analytics</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Otomatik Uygunluk Analizcisi Simülatörü</h3>
+</div>
+<p class="font-body-sm text-body-sm text-outline mt-0.5">
+                Seçili bir kurum veya laboratuvar ilanının şartlarını mevcut doğrulanmış profilinizle eşzamanlı kıyaslar.
+              </p>
+</div>
+<!-- İncelenen İlan Seçici -->
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-lg">
+<span class="font-label-sm text-label-sm text-outline">Hedef İlan:</span>
+<span class="font-body-md-bold text-body-md-bold text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">corporate_fare</span>
+                Aselsan - Gömülü Sistemler Stajyeri
+              </span>
+</div>
+</div>
+<!-- Analiz Skor Barı -->
+<div class="grid grid-cols-1 sm:grid-cols-4 gap-space-sm bg-cini-surface-ground p-space-md rounded-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">TOPLAM UYUMLULUK</span>
+<span class="font-headline-lg text-headline-lg font-bold text-primary">%75</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">ZORUNLU ŞARTLAR</span>
+<span class="font-headline-md text-headline-md font-bold text-dogrulama-emerald">2 / 2 Karşılandı</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">TEKNİK YETKİNLİK</span>
+<span class="font-headline-md text-headline-md font-bold text-inceleme-amber">1 Teyit Eksik</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">İDARİ EVRAK</span>
+<span class="font-headline-md text-headline-md font-bold text-mercan-urgent">1 Belge Eksik</span>
+</div>
+</div>
+<!-- İlan Şartları Karşılaştırma Matrisi -->
+<div class="flex flex-col gap-space-xs mt-space-xs">
+<span class="font-label-md text-label-md text-on-surface font-bold uppercase tracking-wider mb-1">
+              İlan Şartları &amp; Öğrenci Profili Eşleme Matrisi
+            </span>
+<!-- Kriter 1: Sınıf Şartı (Karşılanıyor) -->
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-bright hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-sm">
+<div class="w-7 h-7 rounded-full bg-dogrulama-emerald-surface text-dogrulama-emerald flex items-center justify-center flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-on-surface">Bilgisayar / Elektronik Mühendisliği 3. veya 4. Sınıf Olmak</span>
+<span class="font-body-sm text-body-sm text-outline">Öğrenci Profili: İTÜ Bilgisayar Müh. 3. Sınıf (YÖKSİS Teyitli)</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-dogrulama-emerald-surface text-dogrulama-emerald font-label-md text-label-md whitespace-nowrap">
+                Tam Karşılanıyor
+              </span>
+</div>
+<!-- Kriter 2: Min GANO Şartı (Karşılanıyor) -->
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-bright hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-sm">
+<div class="w-7 h-7 rounded-full bg-dogrulama-emerald-surface text-dogrulama-emerald flex items-center justify-center flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-on-surface">Minimum 3.00 / 4.00 Genel Akademik Not Ortalaması (GANO)</span>
+<span class="font-body-sm text-body-sm text-outline">Öğrenci Profili: 3.62 GANO (Transkript onaylı, sınırın +0.62 üzerinde)</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-dogrulama-emerald-surface text-dogrulama-emerald font-label-md text-label-md whitespace-nowrap">
+                Tam Karşılanıyor
+              </span>
+</div>
+<!-- Kriter 3: C++ & OOP Bilgisi (Doğrulanmalı / Kanıt Eksik) -->
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-bright hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-sm">
+<div class="w-7 h-7 rounded-full bg-inceleme-amber-surface text-inceleme-amber flex items-center justify-center flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">priority_high</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-on-surface">C++ Bilgisi ve Nesne Yönelimli Programlama Deneyimi</span>
+<span class="font-body-sm text-body-sm text-outline">Öğrenci Profili: C++ becerisi listelenmiş ancak hiçbir repoya veya derse bağlı değil.</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-inceleme-amber-surface text-inceleme-amber font-label-md text-label-md whitespace-nowrap">
+                Kanıt Eksik
+              </span>
+</div>
+<!-- Kriter 4: Zorunlu Staj Belgesi Onayı (Eksik Evrak) -->
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-bright hover:bg-surface-container-low transition-colors">
+<div class="flex items-start gap-space-sm">
+<div class="w-7 h-7 rounded-full bg-mercan-surface text-mercan-urgent flex items-center justify-center flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">help_outline</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-on-surface">Fakülte Onaylı Zorunlu Staj Belgesi (SGK Karşılanma Durumu)</span>
+<span class="font-body-sm text-body-sm text-outline">Öğrenci Profili: Staj belgesi veya dekanlık onay dilekçesi henüz sisteme yüklenmedi.</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-mercan-surface text-mercan-urgent font-label-md text-label-md whitespace-nowrap">
+                Evrak Eksik
+              </span>
+</div>
+</div>
+<!-- Eksik Kapatma Önerisi & Aksiyon Çağrısı (Actionable Remediation Banner) -->
+<div class="bg-cini-turquoise-surface rounded-xl p-space-md flex flex-col sm:flex-row items-center justify-between gap-space-md mt-space-xs">
+<div class="flex items-start gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center flex-shrink-0 mt-0.5 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">lightbulb</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md-bold text-body-md-bold text-on-surface">Eksik Kapatma ve Kabul Şansını Artırma Tavsiyesi</span>
+<p class="font-body-sm text-body-sm text-outline mt-0.5 leading-relaxed">
+                  Aselsan Gömülü Sistemler ilanında kabul oranını %92 seviyesine çıkarmak için: <strong>C++ bilginizi kanıtlamak üzere</strong> GitHub'daki projenizi bağlayın veya İTÜ transkriptinizdeki OOP dersini profilinize doğrulama olarak ekleyin.
+                </p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-shrink-0 w-full sm:w-auto">
+<button class="w-full sm:w-auto px-space-md py-space-xs rounded-lg bg-primary text-on-primary font-body-sm font-semibold hover:bg-primary-container transition-colors shadow-sm flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[18px]">add_link</span>
+                C++ Kanıtı Bağla
+              </button>
+</div>
+</div>
+<!-- Aksiyon Satırı: E-posta Taslağı Üretimi & Uygunluk Özeti İndirme -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-sm">
+<div class="flex items-center gap-space-xs text-outline font-body-sm">
+<span class="material-symbols-outlined text-[18px]">info</span>
+<span>Bu simülasyon sonuçları Aselsan İK başvuru formatıyla %100 uyumludur.</span>
+</div>
+<div class="flex items-center gap-space-sm w-full sm:w-auto justify-end">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container text-on-surface font-body-sm font-semibold hover:bg-surface-container-high transition-colors">
+                Raporu PDF İndir
+              </button>
+<button class="px-space-md py-space-xs rounded-lg bg-primary text-on-primary font-body-sm font-semibold hover:bg-primary-container transition-colors shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">forward_to_inbox</span>
+                Doğrulanmış E-posta Taslağı Üret
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-cini-surface-card py-space-xl shadow-[0_1px_8px_rgba(15,23,42,0.04)] mt-space-xl"><div class="w-full px-margin mx-auto flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Çini Staj Asistanı Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VPeRDixGMkvC560_4Tb_732qB_e9x1rWZGPWY6j6PP6d0-a4JtFZstBTUAnUJoxXnCcC4R7oNeaZFaiZZUaB2Cv3LmJ6gmtB6Hb_rdjJbNA-E_Hel50EgnWPsfaC-pbqU6wx7cAwD_UrtTUHj1mCdgYMXJvPR06bp0yPq2bh5RY2w-TpBpW8eyyLHuBNJCgxj9C_GZzlTzyhqy_3IX8ylXf_nFo9OFNQrFq-eOesXaDp_vKJyzSfNlT10"/><span class="font-headline-sm text-headline-sm text-primary font-bold">Çini Staj Asistanı</span><span class="font-body-sm text-body-sm text-outline">| Doğrulanmış Akademik ve Kurumsal Fırsat Havuzu</span></div><div class="flex items-center gap-space-lg"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">TÜBİTAK &amp; BAP Projeleri</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">E-posta Taslak Rehberi</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Doğrulama Metodolojisi</a><span class="font-body-sm text-body-sm text-outline">© 2025 Çini Staj Platformu. Tüm hakları saklıdır.</span></div></div></footer></body></html>

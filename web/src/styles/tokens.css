@@ -1,0 +1,53 @@
+/* Tasarım jetonları: "Çalışmanın Yolu" tasarım sistemi (açık tema). Kaynak: stitch_ini_kariyer_platformu/DESIGN.md
+ * Kurallar: Mercan YALNIZCA zaman-kritik durumlar için (son 3 gün, süresi doluyor). Zümrüt = doğrulanmış kaynak.
+ * Kehribar = bilinmiyor/teyit bekliyor. İndigo = akademik laboratuvar. Turkuaz = kurumsal staj ve ana eylemler. */
+:root {
+  /* Zemin ve yüzeyler (seramik: beyaz porselen üzerinde soğuk gri zemin) */
+  --paper: #f8fafc;
+  --surface: #ffffff;
+  --sand: #f1f5f9;
+  --line: #e2e8f0;
+  --line-strong: #cbd5e1;
+
+  /* Metin: sıcak kayrak, saf siyah değil */
+  --ink: #1e293b;
+  --ink-soft: #334155;
+  --ink-mute: #64748b;
+  --ink-faint: #94a3b8;
+
+  /* İznik turkuazı: ana vurgu */
+  --primary: #087e8b;
+  --primary-hover: #0e7490;
+  --primary-tint: #f0fdfa;
+  --primary-line: #ccfbf1;
+  --primary-ink: #00636e;
+  --secondary: #0e7490;
+  --eslesme: #00a896; /* eşleşme halkası, ilerleme */
+
+  /* Mercan: yalnızca aciliyet */
+  --mercan: #e05a47;
+  --mercan-ink: #c2412e;
+  --mercan-tint: #fef2f2;
+  --mercan-line: #fecaca;
+
+  /* Doğrulama zümrütü */
+  --dogrulama: #059669;
+  --dogrulama-ink: #047857;
+  --dogrulama-tint: #ecfdf5;
+  --dogrulama-line: #a7f3d0;
+
+  /* İnceleme kehribarı (bilinmiyor / teyit bekliyor) */
+  --inceleme: #d97706;
+  --inceleme-ink: #b45309;
+  --inceleme-tint: #fffbeb;
+  --inceleme-line: #fde68a;
+
+  /* Akademik indigo */
+  --akademik: #4338ca;
+  --akademik-tint: #eef2ff;
+  --akademik-line: #c7d2fe;
+
+  --golge-1: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.03);
+  --golge-2: 0 8px 20px -4px rgba(8, 126, 139, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.03);
+  --gradyan-parilti: linear-gradient(90deg, #087e8b, #00a896);
+}

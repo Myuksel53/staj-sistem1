@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+@import "../styles/efektler.css";
+@import "../styles/uyarlama.css";
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-sand: var(--sand);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-mute: var(--ink-mute);
+  --color-ink-faint: var(--ink-faint);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-tint: var(--primary-tint);
+  --color-primary-line: var(--primary-line);
+  --color-primary-ink: var(--primary-ink);
+  --color-secondary: var(--secondary);
+  --color-eslesme: var(--eslesme);
+  --color-mercan: var(--mercan);
+  --color-mercan-ink: var(--mercan-ink);
+  --color-mercan-tint: var(--mercan-tint);
+  --color-mercan-line: var(--mercan-line);
+  --color-dogrulama: var(--dogrulama);
+  --color-dogrulama-ink: var(--dogrulama-ink);
+  --color-dogrulama-tint: var(--dogrulama-tint);
+  --color-dogrulama-line: var(--dogrulama-line);
+  --color-inceleme: var(--inceleme);
+  --color-inceleme-ink: var(--inceleme-ink);
+  --color-inceleme-tint: var(--inceleme-tint);
+  --color-inceleme-line: var(--inceleme-line);
+  --color-akademik: var(--akademik);
+  --color-akademik-tint: var(--akademik-tint);
+  --color-akademik-line: var(--akademik-line);
+  /* eski adlar (koral) yeni mercan jetonlarına bağlı kalır */
+  --color-coral: var(--mercan);
+  --color-coral-ink: var(--mercan-ink);
+  --color-coral-tint: var(--mercan-tint);
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-jakarta), system-ui, sans-serif;
+  --shadow-kart: var(--golge-1);
+  --shadow-kart-ust: var(--golge-2);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink-soft);
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* Erişilebilirlik: klavye odağı her yerde görünsün */
+:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+html { scroll-behavior: smooth; }

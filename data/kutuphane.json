@@ -1,0 +1,179 @@
+{
+  "_not": "Resmî/yaygın ücretsiz öğrenme kaynakları; betik her URL'i erişilebilirlik için denetler.",
+  "kaynaklar": [
+    {
+      "beceri": "python",
+      "baslik": "Python Tutorial (resmî belge)",
+      "tur": "dokuman",
+      "url": "https://docs.python.org/3/tutorial/"
+    },
+    {
+      "beceri": "python",
+      "baslik": "CS50's Introduction to Programming with Python",
+      "tur": "kurs",
+      "url": "https://cs50.harvard.edu/python/"
+    },
+    {
+      "beceri": "python",
+      "baslik": "Learn Python (etkileşimli)",
+      "tur": "kurs",
+      "url": "https://www.learnpython.org/"
+    },
+    {
+      "beceri": "c",
+      "baslik": "Learn C (etkileşimli)",
+      "tur": "kurs",
+      "url": "https://www.learn-c.org/"
+    },
+    {
+      "beceri": "c",
+      "baslik": "CS50x: Introduction to Computer Science",
+      "tur": "kurs",
+      "url": "https://cs50.harvard.edu/x/"
+    },
+    {
+      "beceri": "c++",
+      "baslik": "LearnCpp.com",
+      "tur": "kurs",
+      "url": "https://www.learncpp.com/"
+    },
+    {
+      "beceri": "git",
+      "baslik": "Pro Git kitabı (Türkçe)",
+      "tur": "dokuman",
+      "url": "https://git-scm.com/book/tr/v2"
+    },
+    {
+      "beceri": "linux",
+      "baslik": "Linux Journey",
+      "tur": "kurs",
+      "url": "https://linuxjourney.com/"
+    },
+    {
+      "beceri": "sql",
+      "baslik": "SQLBolt: etkileşimli SQL dersleri",
+      "tur": "kurs",
+      "url": "https://sqlbolt.com/"
+    },
+    {
+      "beceri": "pytorch",
+      "baslik": "PyTorch: Learn the Basics",
+      "tur": "dokuman",
+      "url": "https://pytorch.org/tutorials/beginner/basics/intro.html"
+    },
+    {
+      "beceri": "tensorflow",
+      "baslik": "TensorFlow öğreticileri",
+      "tur": "dokuman",
+      "url": "https://www.tensorflow.org/tutorials"
+    },
+    {
+      "beceri": "machine learning",
+      "baslik": "Google Machine Learning Crash Course",
+      "tur": "kurs",
+      "url": "https://developers.google.com/machine-learning/crash-course"
+    },
+    {
+      "beceri": "machine learning",
+      "baslik": "Kaggle Learn (ücretsiz mini kurslar)",
+      "tur": "kurs",
+      "url": "https://www.kaggle.com/learn"
+    },
+    {
+      "beceri": "opencv",
+      "baslik": "OpenCV öğreticileri",
+      "tur": "dokuman",
+      "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html"
+    },
+    {
+      "beceri": "numpy",
+      "baslik": "NumPy: Learn",
+      "tur": "dokuman",
+      "url": "https://numpy.org/learn/"
+    },
+    {
+      "beceri": "pandas",
+      "baslik": "pandas: Getting started",
+      "tur": "dokuman",
+      "url": "https://pandas.pydata.org/docs/getting_started/index.html"
+    },
+    {
+      "beceri": "docker",
+      "baslik": "Docker: Get started",
+      "tur": "dokuman",
+      "url": "https://docs.docker.com/get-started/"
+    },
+    {
+      "beceri": "ros",
+      "baslik": "ROS 2 öğreticileri",
+      "tur": "dokuman",
+      "url": "https://docs.ros.org/en/humble/Tutorials.html"
+    },
+    {
+      "beceri": "verilog",
+      "baslik": "HDLBits: Verilog alıştırmaları",
+      "tur": "mini_proje",
+      "url": "https://hdlbits.01xz.net/wiki/Main_Page"
+    },
+    {
+      "beceri": "javascript",
+      "baslik": "MDN: Learn web development",
+      "tur": "kurs",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development"
+    },
+    {
+      "beceri": "react",
+      "baslik": "React: Learn",
+      "tur": "dokuman",
+      "url": "https://react.dev/learn"
+    },
+    {
+      "beceri": "java",
+      "baslik": "Dev.java: Learn Java",
+      "tur": "kurs",
+      "url": "https://dev.java/learn/"
+    },
+    {
+      "beceri": "kotlin",
+      "baslik": "Kotlin: Get started",
+      "tur": "dokuman",
+      "url": "https://kotlinlang.org/docs/getting-started.html"
+    },
+    {
+      "beceri": "arduino",
+      "baslik": "Arduino: Learn",
+      "tur": "dokuman",
+      "url": "https://docs.arduino.cc/learn/"
+    },
+    {
+      "beceri": "rtos",
+      "baslik": "FreeRTOS belgeleri",
+      "tur": "dokuman",
+      "url": "https://www.freertos.org/Documentation/00-Overview"
+    },
+    {
+      "beceri": "matlab",
+      "baslik": "MATLAB Academy (ücretsiz kurslar)",
+      "tur": "kurs",
+      "url": "https://matlabacademy.mathworks.com/"
+    },
+    {
+      "beceri": "siber güvenlik",
+      "baslik": "OverTheWire Wargames",
+      "tur": "mini_proje",
+      "url": "https://overthewire.org/wargames/"
+    },
+    {
+      "beceri": "ağ",
+      "baslik": "Cisco Networking Academy: ücretsiz kurslar",
+      "tur": "kurs",
+      "url": "https://www.netacad.com/courses/all-courses"
+    },
+    {
+      "beceri": "linux",
+      "baslik": "OverTheWire Bandit: Linux komut satırı",
+      "tur": "mini_proje",
+      "url": "https://overthewire.org/wargames/bandit/"
+    }
+  ]
+}

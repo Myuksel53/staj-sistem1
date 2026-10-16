@@ -1,0 +1,1056 @@
+{
+  "_not": "GERÇEK program kayıtları: yalnızca resmî sayfada yazan bilgi, 2026-10-15'te sayfa metninden okunarak girildi (yöntem: otomatik). Tarihleri başvurmadan önce resmî sayfadan yeniden kontrol et.",
+  "kayitlar": [
+    {
+      "kurum": {
+        "ad": "TÜBİTAK",
+        "tur": "enstitu",
+        "sehir": "Ankara",
+        "ulke": "TR",
+        "webSitesi": "https://tubitak.gov.tr"
+      },
+      "tur": "arastirma_staji",
+      "baslik": "TÜBİTAK 2247-C Stajyer Araştırmacı Burs Programı (STAR Lisans)",
+      "aciklama": "TÜBİTAK merkez ve enstitülerinde yürütülen projelerde, TÜBİTAK tarafından desteklenen araştırma projelerinde veya YÖK ADEP destekli projelerde görev alacak lisans öğrencilerine aylık 6.000 TL burs verilir. Burs en fazla 6 ay sürer. Başvuru BİDEB e-BİDEB sistemi üzerinden yapılır ve ARBİS kaydı gerekir. 2026 ikinci dönem takvimi: öğrenci başvuruları 2-16 Kasım 2026.",
+      "sureHafta": 26,
+      "sonBasvuru": "2026-11-16",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://tubitak.gov.tr/tr/burslar/lisans/burs-programlari/2247-c",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Kamu kurumu resmî duyuru sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "TÜBİTAK",
+        "tur": "enstitu",
+        "sehir": "Ankara",
+        "ulke": "TR",
+        "webSitesi": "https://tubitak.gov.tr"
+      },
+      "tur": "proje",
+      "baslik": "TÜBİTAK 2209-A Üniversite Öğrencileri Araştırma Projeleri Desteği (2026 çağrısı)",
+      "aciklama": "Lisans veya ön lisans öğrencilerinin akademik danışman rehberliğinde hazırladıkları araştırma projelerinin makine, sarf malzeme, seyahat ve hizmet alımı giderleri en fazla 12.000 TL ile desteklenir. Projeler en çok 12 ay sürer. Başvuru için ARBİS kaydı ve akademik danışman gerekir. Başvurular TYBS üzerinden 11 Kasım 2026 saat 17.30'a kadar alınır.",
+      "sureHafta": 52,
+      "sonBasvuru": "2026-11-11",
+      "durum": "acik",
+      "kaynak": {
+        "url": "https://tubitak.gov.tr/tr/burslar/lisans/burs-programlari/2209-a",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Kamu kurumu resmî duyuru sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "TUSAŞ",
+        "tur": "sirket",
+        "sehir": "Ankara",
+        "ulke": "TR",
+        "webSitesi": "https://www.tusas.com"
+      },
+      "tur": "staj",
+      "baslik": "TUSAŞ SKY Discover Kısa Dönem Yaz Stajı",
+      "aciklama": "Havacılık ve uzay teknolojileri alanında savunma sanayisini tanıtan, Haziran-Eylül arasında 20 iş günü süren yaz stajıdır. Mühendislik fakültesinde 3. veya 4. sınıf öğrencisi olmak ve genel not ortalaması en az 3.00 olmak gerekir. Staj öğrencinin müfredatında zorunlu olmalıdır, isteğe bağlı staj yapılamaz. Başvurular savunmakariyer.com üzerinden yapılır; sayfada başvuru dönemi Mart 2027 olarak duyurulmuştur.",
+      "sureHafta": 4,
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://kariyer.tusas.com/sky",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Şirketin resmî kariyer sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "CERN",
+        "tur": "enstitu",
+        "sehir": "Cenevre",
+        "ulke": "CH",
+        "webSitesi": "https://home.cern"
+      },
+      "tur": "arastirma_staji",
+      "baslik": "CERN Summer Student Programme",
+      "aciklama": "CERN'de deneyler üzerinde çalışan araştırma ekiplerinin günlük işlerine katılma fırsatı sunan yaz programıdır. Fizik, bilgisayar, mühendislik ve matematik alanlarında lisans veya yüksek lisans öğrencisi olmak gerekir. Tüm uyruklar başvurabilir. Program en az 8, en fazla 13 hafta sürer. Başvurular Careers at CERN sitesinden yapılır ve en geç Ocak ayı sonuna kadar ulaşmalıdır.",
+      "sureHafta": 8,
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://home.cern/summer-student-programme",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Kurumun resmî program sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Google Summer of Code",
+        "tur": "sirket",
+        "sehir": "Uzaktan",
+        "ulke": "US",
+        "webSitesi": "https://summerofcode.withgoogle.com"
+      },
+      "tur": "proje",
+      "baslik": "Google Summer of Code (açık kaynak programlama projesi)",
+      "aciklama": "Küresel ve çevrim içi bir programdır; açık kaynak yazılım geliştirmeye yeni başlayanları, mentorların rehberliğinde bir açık kaynak kuruluşuyla çalışmaya kazandırmayı amaçlar. Proje en az 12 hafta sürer. Başvurmadan önce ilgilendiğin kuruluşla erken iletişim kurman önerilir. Güncel yılın başvuru tarihleri resmî sayfada duyurulmamıştır.",
+      "uzaktan": true,
+      "sureHafta": 12,
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://summerofcode.withgoogle.com/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Programın resmî sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "ASELSAN",
+        "tur": "sirket",
+        "sehir": "Ankara",
+        "ulke": "TR",
+        "webSitesi": "https://www.aselsan.com"
+      },
+      "tur": "staj",
+      "baslik": "ASELSAN a Yetenek Yaz Stajı",
+      "sehir": "Ankara",
+      "sureHafta": 6,
+      "aciklama": "Yalnızca zorunlu stajlar için yaz stajı uygulamasıdır; uzun dönem staj ve gönüllü staj yoktur. Lisansta üniversitelerin 3. veya 4. sınıfında öğrenim görüyor olmak ve stajın zorunlu staj kapsamında olması gerekir. Genel not ortalaması en az 2.00 olmalıdır (başka bir resmî kaynakta 2.50 yazıyor, başvurmadan önce doğrula). Daha önce ASELSAN'da staj yapmamış olmak gerekir. Staj, zorunlu staj süren kadar ve en fazla 30 iş günü sürer. Öğrencilere asgari ücretin yüzde 30'u kadar ücret ödenir. Başvurular her yıl 1-31 Mart arasında ASELSAN kariyer hesabında açıklanan platformdan yapılır.",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://wwwcdn.aselsan.com/api/file/a_Yetenek_Yaz_Staji_SSS.pdf",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "ASELSAN'ın yayımladığı resmî sıkça sorulan sorular belgesi"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "ASELSAN",
+        "tur": "sirket",
+        "sehir": "Ankara",
+        "ulke": "TR",
+        "webSitesi": "https://www.aselsan.com"
+      },
+      "tur": "staj",
+      "baslik": "ASELSAN a Yetenek 3 Programı",
+      "sehir": "Ankara",
+      "sureHafta": 20,
+      "aciklama": "Lisansta 3. sınıfın ilk dönemini bitirip ikinci dönemine geçen öğrenciler içindir. Başvuru yapabilecek bölümler: Elektrik, Elektrik-Elektronik, Elektronik, Elektronik ve Haberleşme, Kontrol, Kontrol ve Bilgisayar, Kontrol ve Otomasyon, Mikroelektronik, Telekomünikasyon, Bilgisayar, Yapay Zekâ ve Yazılım Mühendisliği. Program zorunlu staj kapsamında değildir ve ASELSAN program süresince sigorta yapar. Program Şubat ayında başlar, Haziran ayında sona erer. Başvurular her yılın Kasım ayında açılır; süreç ortalama 1-1,5 ay sürer. Eğitim dili yüzde 100 İngilizce olmayan programlarda yabancı dil sınav sonucu gerekir. Haftanın 1 günü ASELSAN kampüslerinde bulunabilen öğrenciler Ankara dışından da başvurabilir; konaklama ve ulaşımı öğrenci kendisi organize eder.",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://wwwcdn.aselsan.com/api/file/a_Yetenek_3_Programi_SSS.pdf",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "ASELSAN'ın yayımladığı resmî sıkça sorulan sorular belgesi"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Baykar",
+        "tur": "sirket",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.baykartech.com"
+      },
+      "tur": "staj",
+      "baslik": "Baykar Staj Programı (dönemlik)",
+      "aciklama": "Baykar staj başvurularını dönemlik olarak kariyer sitesinde duyurur. Sayfada 2026 Güz ve 2027 Bahar dönemleri yer alıyor. 2027 Bahar dönemi için son başvuru 14.10.2026 idi ve başvuru süreci tamamlanmıştır. Bu dönem için sınav ve video mülakatlar 16-17 Ekim 2026, sonuçlar 4-9 Ocak 2027 arasında, staj ise 1 Şubat-22 Mayıs 2027 arasındadır. Sonraki dönemin duyurusu için kariyer sayfasını takip et. Sayfada başvuru koşulları ve başvuru yöntemi ayrıca belirtilmemiştir.",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://kariyer.baykartech.com/tr/staj/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Şirketin resmî kariyer sayfası; robots.txt tarama izni veriyor"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Turkcell",
+        "tur": "sirket",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.turkcell.com.tr"
+      },
+      "tur": "staj",
+      "baslik": "Turkcell GNÇYTNK Staj",
+      "aciklama": "Turkcell'in gençlere yönelik işe alım programının staj seçeneğidir. Lisans öğrencisi olup zorunlu stajı olanlar başvurabilir. Başvuru Turkcell Kariyerim sitesindeki başvuru bağlantısından yapılır. Başvuru dönemi, staj süresi ve içeriği ilgili sayfada belirtilmemiştir; güncel bilgi için sayfayı takip et.",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://kariyerim.turkcell.com.tr/genc-yetenek",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Şirketin resmî kariyer sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "HAVELSAN",
+        "tur": "sirket",
+        "sehir": "Ankara",
+        "ulke": "TR",
+        "webSitesi": "https://www.havelsan.com"
+      },
+      "tur": "staj",
+      "baslik": "HAVELSAN HİT Yaz Staj Programı",
+      "sehir": "Ankara",
+      "sureHafta": 6,
+      "aciklama": "“HAVELSAN’ı İş’te Tanı” mottosuyla yürütülen yaz stajıdır. T.C. vatandaşı olmak, Bilgisayar, Yazılım, Elektrik-Elektronik, Makine, Endüstri veya Yapay Zekâ Mühendisliği gibi sayfada listelenen bölümlerden birinde 3. veya 4. sınıf öğrencisi olmak ve genel not ortalaması en az 3.00 olmak gerekir. Daha önce HAVELSAN’da staj yapmamış olmak gerekir. Seçimde önce not ortalamasına bakılır, sonra Genel Yetenek ve İngilizce Yeterlilik sınavları yapılır. 2026 dönemleri 20 ya da 30 iş günüydü (Temmuz-Eylül). Başvurular Ulusal Staj Programı üzerinden yapılır; 2026 başvuruları Mart ayında açılmıştı, sonraki dönemin tarihi sayfada duyurulmamıştır.",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://www.havelsan.com/kariyer/havelsan-da-calismak/staj",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Şirketin resmî kariyer sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Vodafone Türkiye",
+        "tur": "sirket",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.vodafone.com.tr"
+      },
+      "tur": "staj",
+      "baslik": "Vodafone Teknoloji Odaklı Uzun Dönem Staj Programı",
+      "sehir": "İstanbul",
+      "aciklama": "Teknoloji odaklı uzun dönem staj programıdır. 4. sınıf ya da yüksek lisans öğrencisi olmak, ilgili mühendislik alanlarında okumak ve telekomünikasyon ya da teknoloji alanında kariyer planlamak gerekir. Ekipler arasında IT Operasyonları, Siber Güvenlik, DevOps, Yazılım Geliştirme, Data Analitiği ve Network Planlama bulunur. Başvuru bağlantısı Vodafone açık ilanlar sayfasına gider; sayfada süre ve başvuru tarihleri belirtilmemiştir.",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://www.vodafone.com.tr/hakkimizda/insan-kaynaklari/staj-programlarimiz",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Şirketin resmî insan kaynakları sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "TÜBİTAK BİLGEM",
+        "tur": "enstitu",
+        "ulke": "TR",
+        "webSitesi": "https://bilgem.tubitak.gov.tr"
+      },
+      "tur": "staj",
+      "baslik": "TÜBİTAK BİLGEM Lisans Stajı",
+      "aciklama": "TÜBİTAK BİLGEM her yıl üniversitelerin lisans öğrencilerine staj imkânı sunar. Staj ilanları Ulusal Staj Programı web sitesinden takip edilir ve başvurular oradan yapılır. Sayfada sınıf, bölüm ve süre koşulu belirtilmemiştir; başvuru tarihleri duyurulmamıştır.",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bilgem.tubitak.gov.tr/yte",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Kamu kurumu resmî sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "TÜBİTAK BİLGEM",
+        "tur": "enstitu",
+        "ulke": "TR",
+        "webSitesi": "https://bilgem.tubitak.gov.tr"
+      },
+      "tur": "arastirma_staji",
+      "baslik": "TÜBİTAK BİLGEM Aday Araştırmacı Programı",
+      "aciklama": "Lisans 3. ve 4. sınıf öğrencilerine kısmi süreli çalışma imkânı sunan bir programdır. Başvurular kariyer.tubitak.gov.tr üzerinden yapılır. Sayfada süre, bölüm ve başvuru tarihleri belirtilmemiştir.",
+      "durum": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bilgem.tubitak.gov.tr/yte",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Kamu kurumu resmî sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    }
+  ],
+  "gruplar": [
+    {
+      "kurum": {
+        "ad": "İstanbul Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.itu.edu.tr"
+      },
+      "ad": "İTÜ Yapay Zeka Sistemleri Laboratuvarı",
+      "konular": [
+        "yapay zeka",
+        "makine öğrenmesi",
+        "derin öğrenme",
+        "takviyeli öğrenme",
+        "nöromorfik hesaplama",
+        "hiperparametre optimizasyonu"
+      ],
+      "sayfaUrl": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/yapay-zeka-sistemleri-laboratuvar%C4%B1",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/yapay-zeka-sistemleri-laboratuvar%C4%B1",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "İstanbul Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.itu.edu.tr"
+      },
+      "ad": "İTÜ Veri Analitiği Laboratuvarı",
+      "konular": [
+        "veri madenciliği",
+        "makine öğrenmesi",
+        "açıklanabilir yapay zeka",
+        "anomali tespiti",
+        "zaman serisi analizi",
+        "çizge sinir ağları",
+        "öneri sistemleri"
+      ],
+      "sayfaUrl": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/veri-analiti%C4%9Fi-laboratuvar%C4%B1",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/veri-analiti%C4%9Fi-laboratuvar%C4%B1",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "İstanbul Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.itu.edu.tr"
+      },
+      "ad": "İTÜ Siber Güvenlik ve Mahremiyet Laboratuvarı",
+      "konular": [
+        "siber güvenlik",
+        "mahremiyet",
+        "kriptografi",
+        "ağ güvenliği",
+        "IoT güvenliği",
+        "zararlı yazılım analizi",
+        "kimlik doğrulama",
+        "bulut güvenliği"
+      ],
+      "sayfaUrl": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/siber-g%C3%BCvenlik-ve-mahremiyet-laboratuvar%C4%B1",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/siber-g%C3%BCvenlik-ve-mahremiyet-laboratuvar%C4%B1",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "İstanbul Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.itu.edu.tr"
+      },
+      "ad": "İTÜ Görsel Zeka Laboratuvarı",
+      "konular": [
+        "bilgisayarlı görü",
+        "görsel zeka",
+        "derin öğrenme",
+        "görüntü anlama",
+        "örüntü tanıma"
+      ],
+      "sayfaUrl": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/g%C3%B6rsel-zeka-laboratuvar%C4%B1",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/g%C3%B6rsel-zeka-laboratuvar%C4%B1",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "İstanbul Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.itu.edu.tr"
+      },
+      "ad": "İTÜ Robotik Sistemler Laboratuvarı",
+      "konular": [
+        "otonom robotik sistemler",
+        "insan-robot etkileşimi",
+        "mobil robotik",
+        "akıllı kontrol sistemleri",
+        "sürü robotik"
+      ],
+      "sayfaUrl": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/robotik-sistemler-laboratuvar%C4%B1",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/robotik-sistemler-laboratuvar%C4%B1",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "İstanbul Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.itu.edu.tr"
+      },
+      "ad": "İTÜ Bilgisayar Ağları Laboratuvarı",
+      "konular": [
+        "UAV sürü ağları",
+        "hareketli ve ad-hoc ağlar",
+        "dijital ikiz ağları",
+        "yazılım tanımlı ağlar (SDN)",
+        "O-RAN",
+        "UWB haberleşme",
+        "yapay zeka destekli haberleşme",
+        "semantik haberleşme",
+        "6G",
+        "edge computing"
+      ],
+      "sayfaUrl": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/bilgisayar-a%C4%9Flar%C4%B1-laboratuvar%C4%B1",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/bilgisayar-a%C4%9Flar%C4%B1-laboratuvar%C4%B1",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "İstanbul Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR",
+        "webSitesi": "https://www.itu.edu.tr"
+      },
+      "ad": "İTÜ Yazılım Mühendisliği Laboratuvarı",
+      "konular": [
+        "yazılım mühendisliği metodolojileri",
+        "yazılım kalite güvencesi",
+        "yazılım mimarisi ve tasarımı",
+        "ölçeklenebilir yazılım sistemleri",
+        "model tabanlı yazılım mühendisliği",
+        "DevOps ve sürekli entegrasyon"
+      ],
+      "sayfaUrl": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/yaz%C4%B1l%C4%B1m-m%C3%BChendisli%C4%9Fi-laboratuvar%C4%B1",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://bbf.itu.edu.tr/arastirma/ara%C5%9Ft%C4%B1rma-laboratuvarlar%C4%B1/yaz%C4%B1l%C4%B1m-m%C3%BChendisli%C4%9Fi-laboratuvar%C4%B1",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Orta Doğu Teknik Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "ODTÜ KOVAN Araştırma Laboratuvarı",
+      "konular": [
+        "sürü robotiği",
+        "bilişsel robotik",
+        "otonom robotik",
+        "insansı robotlar",
+        "robot kontrolü",
+        "planlama"
+      ],
+      "sayfaUrl": "https://ceng.metu.edu.tr/tr/kovan-arastirma-laboratuvari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://ceng.metu.edu.tr/tr/kovan-arastirma-laboratuvari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi AILAB (Yapay Zeka Laboratuvarı)",
+      "konular": [
+        "robot takımları",
+        "çok etmenli sistemler",
+        "doğal dil işleme",
+        "akıllı web uygulamaları",
+        "kuantum hesaplama"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi CASLAB (Bilgisayar Sistemleri ve Mimarileri)",
+      "konular": [
+        "gömülü sistemler",
+        "nesnelerin interneti",
+        "işlemci mimarileri",
+        "paralel ve dağıtık sistemler",
+        "blokzincir",
+        "bulut hesaplama",
+        "FPGA"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi CoLoRs Lab (Biliş, Öğrenme ve Robotik)",
+      "konular": [
+        "bilişsel robotik",
+        "robotlarda öğrenme",
+        "insan-robot etkileşimi",
+        "manipülasyon"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi DeepMIA (Derin Öğrenme ve Tıbbi Görüntü Analizi)",
+      "konular": [
+        "derin öğrenme",
+        "tıbbi görüntü analizi",
+        "bilgisayarlı görü",
+        "sağlıkta yapay zeka",
+        "doku segmentasyonu"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi MEDIALAB (Çokluortam Laboratuvarı)",
+      "konular": [
+        "sanal gerçeklik",
+        "3B grafik",
+        "yüz tanıma",
+        "biyometri",
+        "makine öğrenmesi",
+        "konuşma tanıma",
+        "sinir ağları"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi NETLAB (Bilgisayar Ağları Laboratuvarı)",
+      "konular": [
+        "gelecek nesil ağlar",
+        "telsiz ve mobil ağlar",
+        "sensör ağları",
+        "ağ güvenliği",
+        "nesnelerin interneti",
+        "bilişsel radyo",
+        "bulut ve kenar sistemleri"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi PILAB (Algısal Zeka Laboratuvarı)",
+      "konular": [
+        "insan-bilgisayar etkileşimi",
+        "yüz tanıma",
+        "işaret dili",
+        "biyometrik sistemler",
+        "derin öğrenme",
+        "veri madenciliği"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi SATLAB (Uydu Ağları Laboratuvarı)",
+      "konular": [
+        "uydu ağları",
+        "ağ güvenliği",
+        "5G/6G",
+        "nesnelerin interneti",
+        "yapay zeka uygulamaları"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi SOSLAB (Kompleks Sistemler Laboratuvarı)",
+      "konular": [
+        "karmaşık sistemler",
+        "karmaşık ağlar",
+        "sosyal ağ analizi",
+        "büyük veri"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Boğaziçi Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Boğaziçi TABILAB (Metin Analizi ve Biyoinformatik)",
+      "konular": [
+        "doğal dil işleme",
+        "metin madenciliği",
+        "biyoinformatik",
+        "makine tercümesi",
+        "duygu analizi"
+      ],
+      "sayfaUrl": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://arastirma.bogazici.edu.tr/tr/arastirma-laboratuvarlari/muhendislik-fakultesi-arastirma-laboratuvarlari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî laboratuvar sayfası; konular sayfada yazan ifadelerdir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Sabancı Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Sabancı Bilişsel Robotik Laboratuvarı (Cognitive Robotics Laboratory)",
+      "konular": [
+        "bilişsel robotik",
+        "robotik"
+      ],
+      "sayfaUrl": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Sabancı Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Sabancı Yapay Görme ve Örüntü Analizi Laboratuvarı",
+      "konular": [
+        "yapay görme",
+        "bilgisayarlı görü",
+        "örüntü analizi"
+      ],
+      "sayfaUrl": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Sabancı Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Sabancı Bilgisayar Grafikleri Laboratuvarı",
+      "konular": [
+        "bilgisayar grafikleri"
+      ],
+      "sayfaUrl": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Sabancı Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Sabancı Davranışsal Analitik ve Görselleştirme Laboratuvarı",
+      "konular": [
+        "davranışsal analitik",
+        "veri görselleştirme"
+      ],
+      "sayfaUrl": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Sabancı Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Sabancı Cryptography and Information Security Group",
+      "konular": [
+        "kriptografi",
+        "bilgi güvenliği"
+      ],
+      "sayfaUrl": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Sabancı Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Sabancı Biometrics Research Group",
+      "konular": [
+        "biyometri"
+      ],
+      "sayfaUrl": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Sabancı Üniversitesi",
+        "tur": "universite",
+        "sehir": "İstanbul",
+        "ulke": "TR"
+      },
+      "ad": "Sabancı SUSOFT Yazılım Mühendisliği Araştırma Grubu",
+      "konular": [
+        "yazılım mühendisliği"
+      ],
+      "sayfaUrl": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://cs.sabanciuniv.edu/tr/arastirma/laboratuvar-ve-arastirma-gruplari",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent Applied Security and Privacy (ASAP) Lab",
+      "konular": [
+        "uygulamalı güvenlik",
+        "mahremiyet"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent Machine Learning Group",
+      "konular": [
+        "makine öğrenmesi"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent KAFES Cryptography and Security Lab",
+      "konular": [
+        "kriptografi",
+        "güvenlik"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent LiRA: Learning for Intelligent Robotic Agents",
+      "konular": [
+        "akıllı robotik ajanlar için öğrenme",
+        "robotik"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent RETINA Vision and Learning Group",
+      "konular": [
+        "bilgisayarlı görü",
+        "öğrenme"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent Information Retrieval Group",
+      "konular": [
+        "bilgi erişimi"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent Networking and Systems Group",
+      "konular": [
+        "bilgisayar ağları",
+        "sistemler"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent Parallel and Distributed Computing Research Group",
+      "konular": [
+        "paralel hesaplama",
+        "dağıtık hesaplama"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    },
+    {
+      "kurum": {
+        "ad": "Bilkent Üniversitesi",
+        "tur": "universite",
+        "sehir": "Ankara",
+        "ulke": "TR"
+      },
+      "ad": "Bilkent BILSEN: Software Engineering and Data Analytics Research Group",
+      "konular": [
+        "yazılım mühendisliği",
+        "veri analitiği"
+      ],
+      "sayfaUrl": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+      "kabul": "bilinmiyor",
+      "kaynak": {
+        "url": "https://w3.cs.bilkent.edu.tr/tr/gruplar/",
+        "tur": "resmi_sayfa",
+        "kullanimSartiNotu": "Üniversitenin resmî grup listesi; sayfada konu açıklaması yok, konular yalnızca grup adından türetilmiştir"
+      },
+      "dogrulamaYontemi": "otomatik"
+    }
+  ]
+}
